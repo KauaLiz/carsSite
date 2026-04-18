@@ -61,7 +61,33 @@ section .item{
     transform: rotate(-30deg);
 }
 
+.item .content{
+    position: absolute;
+    right: 100px;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    gap: 20px;
+}
 
+.content .car-information{
+    font-weight: bold;
+}
+
+.content h2{
+    font-size: 8em;
+    line-height: 1em;
+}
+
+.content .description{
+    color: #d9d9d9;
+    font-size: 12px;
+    text-align: right;
+    max-width: 400px;
+}
 
 .arrows button img{
     width: 100px;
