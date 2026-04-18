@@ -179,6 +179,54 @@ section li{
     transition: 0.5s;
 }
 
-.active{
+.indicators .active{
     background-color: white;
 }
+
+
+/* Animations */
+.item{
+    transform: translateX(100vw);
+    transition: 0.5s;
+    transition-delay: 0.3s;
+}
+
+.item .car-img img{
+    transform: rotate(0);
+    transition: 0.5s;
+    transition-delay: 0.3s;
+}
+
+.item .content .car-information, h2, .description, .information{
+    transform: translateX(200px);
+    transition: 0.7s;
+    transition-delay: 0.3s;
+    opacity: 0;
+}
+
+.item .content h2{
+    transition-delay: 0.5s;
+}
+
+.item .content .description{
+    transition-delay: 0.7s;
+}
+
+.item .content .information{
+    transition-delay: 0.9s;
+}
+
+.list .item.active{
+    transform: translateX(0);
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.item.active .content .car-information, h2, .description, .information{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.item.active .car-img img{
+    transform: rotate(-25deg);
+} 
