@@ -6,7 +6,6 @@
 }
 
 body{
-    background-color: black;
     color: white;
     font-size: 16px;
 }
@@ -20,6 +19,7 @@ header{
     align-items: center;
     grid-template-columns: 1fr 600px;
     gap: 10%;
+    z-index: 2;
 }
 
 header img{
@@ -32,7 +32,7 @@ header nav ul{
 }
 
 section{
-    background-image: radal-gradient(#7f3d93, #6d00d9);
+    background-image: radial-gradient(#7f3d93, #6d00d9);
     height: 100vh;
     position: relative;
 }
