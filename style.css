@@ -37,6 +37,13 @@ section{
     position: relative;
 }
 
+section .list{
+    width: 70vw;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+
 section img{
     width: 200px;
 }
