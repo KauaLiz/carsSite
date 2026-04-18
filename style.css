@@ -30,3 +30,17 @@ header nav ul{
     display: grid;
     grid-template-columns: repeat(3, 200px);
 }
+
+section{
+    background-image: radal-gradient(#7f3d93, #6d00d9);
+    height: 100vh;
+    position: relative;
+}
+
+section img{
+    width: 200px;
+}
+
+.arrows button img{
+    width: 100px;
+}
