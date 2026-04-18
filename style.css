@@ -45,9 +45,23 @@ section .list{
     position: relative;
 }
 
-section img{
-    width: 200px;
+section .item{
+    position: absolute;
+    inset: 0;
 }
+
+.item .car-img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.car-img img{
+    width: 80%;
+    transform: rotate(-30deg);
+}
+
+
 
 .arrows button img{
     width: 100px;
