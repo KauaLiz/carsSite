@@ -89,7 +89,8 @@ section .item{
 }
 
 .content h2{
-    font-size: 8em;
+    font-family: "League Gothic", sans-serif;
+    font-size: 6em;
     line-height: 1em;
 }
 
@@ -110,6 +111,8 @@ section .item{
     color: black;
     cursor: pointer;
     font-weight: bold;
+    font-family: "League Gothic", sans-serif;
+    font-size: 15px;
 }
 
 .arrows{
@@ -160,6 +163,7 @@ section .item{
 
 .number{
     font-size: 5em; 
+    font-family: "League Gothic", sans-serif;
 }
 
 section ul{
