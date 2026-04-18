@@ -38,6 +38,16 @@ header nav ul{
     grid-template-columns: repeat(3, 200px);
 }
 
+nav ul li{
+    cursor: pointer;
+    transition: color 0.2 ease;
+}
+
+nav ul li:hover{
+    color: rgb(201, 197, 197);
+}
+
+
 section{
     background-image: radial-gradient(#7f3d93, #6d00d9);
     height: 100vh;
