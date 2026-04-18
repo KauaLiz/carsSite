@@ -46,6 +46,15 @@ section .list{
     position: relative;
 }
 
+.list::before{
+    content: '';
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    top: 50%;
+    border-top: 1px solid white;
+}
+
 section .item{
     position: absolute;
     inset: 0;
@@ -59,7 +68,7 @@ section .item{
 
 .car-img img{
     width: 70%;
-    transform: rotate(-30deg);
+    transform: rotate(-25deg);
     gap: 15px;
 }
 
