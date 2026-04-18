@@ -84,24 +84,24 @@ section .item{
     gap: 20px;
 }
 
-.content .car-information{
+.item .content .car-information{
     font-weight: bold;
 }
 
-.content h2{
+.item .content h2{
     font-family: "League Gothic", sans-serif;
     font-size: 6em;
     line-height: 1em;
 }
 
-.content .description{
+.item .content .description{
     color: #d9d9d9;
     font-size: 12px;
     text-align: right;
     max-width: 350px;
 }
 
-.information{
+.item .content .information{
     border-radius: 30px;
     height: 35px;
     width: 120px;
