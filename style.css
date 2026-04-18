@@ -89,6 +89,18 @@ section .item{
     max-width: 400px;
 }
 
+.information{
+    border-radius: 30px;
+    height: 35px;
+    width: 120px;
+    text-transform: uppercase;
+    border: 2px solid #791fd3;
+    background-color: #beff1b;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
 .arrows button img{
     width: 100px;
 }
